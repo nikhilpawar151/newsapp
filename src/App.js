@@ -6,7 +6,7 @@ import News from './component/News';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export class App extends Component {
-  pageSize = 3
+  pageSize = 9
   apiKey = process.env.REACT_APP_NEWS_API_KEY
   //apiKey = "3ce91dc780134a939154f1f051c27223"
   render() {
